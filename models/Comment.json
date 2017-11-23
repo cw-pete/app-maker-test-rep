@@ -1,0 +1,200 @@
+{
+  "dataSources": [{
+    "key": "R8CV1vq2iz3fPsu66tr8IkPSsIDmlvTi_default",
+    "modelKey": "R8CV1vq2iz3fPsu66tr8IkPSsIDmlvTi",
+    "name": "Comment",
+    "pageSize": 100,
+    "type": "QUERY"
+  }],
+  "defaultDataSourceKey": "R8CV1vq2iz3fPsu66tr8IkPSsIDmlvTi_default",
+  "eventPermissions": [
+    {
+      "name": "ON_CREATE",
+      "permissions": [
+        {
+          "script": "canModifyApproverRecord_(record.Approver, user, userRoles)",
+          "type": "script"
+        },
+        {
+          "groupKeys": ["Admins"],
+          "type": "groups"
+        }
+      ],
+      "type": "compound"
+    },
+    {
+      "name": "ON_LOAD",
+      "type": "compoundEveryone"
+    },
+    {
+      "name": "ON_SAVE",
+      "permissions": [
+        {
+          "script": "canModifyApproverRecord_(record.Approver, user, userRoles)",
+          "type": "script"
+        },
+        {
+          "groupKeys": ["Admins"],
+          "type": "groups"
+        }
+      ],
+      "type": "compound"
+    },
+    {
+      "name": "ON_DELETE",
+      "permissions": [
+        {
+          "script": "canModifyApproverRecord_(record.Approver, user, userRoles)",
+          "type": "script"
+        },
+        {
+          "groupKeys": ["Admins"],
+          "type": "groups"
+        }
+      ],
+      "type": "compound"
+    }
+  ],
+  "events": [],
+  "fields": [
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "Text",
+      "key": "19zu0Y2lyRRlsvzX",
+      "minLength": 0,
+      "name": "Text",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "AddedOn",
+      "key": "pl0FuI2lMrhCy4vI",
+      "name": "AddedOn",
+      "required": false,
+      "type": "Date"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "Action",
+      "key": "8fmfEQJlt4unXzDp",
+      "minLength": 0,
+      "name": "Action",
+      "possibleValues": {
+        "list": [
+          "Approve",
+          "Reject"
+        ],
+        "type": "List[String]"
+      },
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "in",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "IsResolved",
+      "defaultValue": false,
+      "key": "Jn80yX06RCt7nHtp",
+      "name": "IsResolved",
+      "required": false,
+      "type": "Boolean"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "ResolvedOn",
+      "key": "ex2SJysAIr1N0PYV",
+      "name": "ResolvedOn",
+      "required": false,
+      "type": "Date"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "Response",
+      "key": "wzCOlZIujbvnxyhy",
+      "minLength": 0,
+      "name": "Response",
+      "required": false,
+      "type": "String"
+    }
+  ],
+  "key": "R8CV1vq2iz3fPsu66tr8IkPSsIDmlvTi",
+  "modelPermission": {
+    "name": "model_permission",
+    "permissions": [
+      {
+        "script": "canModifyApproverRecord_(record.Approver, user, userRoles)",
+        "type": "script"
+      },
+      {
+        "groupKeys": ["Admins"],
+        "type": "groups"
+      }
+    ],
+    "type": "compound"
+  },
+  "name": "Comment",
+  "type": "BRIX",
+  "userIdFieldType": "USER_ID"
+}

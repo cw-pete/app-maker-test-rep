@@ -1,0 +1,18 @@
+{
+  "databaseId": "BRIX",
+  "key": "RQnsxeUi3WvfdObIsSUlkjXeARK7hUjt",
+  "owner": "NONE",
+  "permission": {
+    "name": "CanModifyAssociations",
+    "type": "inherited"
+  },
+  "sourceArity": "MANY",
+  "sourceModelKey": "bN4kI7TKxzRBQo4DYEewwXiUIAH9raUQ",
+  "sourceName": "WorkflowStages",
+  "sourceSortAscending": true,
+  "sourceSortField": "tsFgUkthoWYgPByP",
+  "targetArity": "ONE",
+  "targetModelKey": "vCXQN59Qkyp1fMWvZGNPbbFvP9JdPvNc",
+  "targetName": "Request",
+  "targetSortAscending": true
+}

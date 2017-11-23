@@ -1,0 +1,176 @@
+{
+  "dataSources": [{
+    "key": "bN4kI7TKxzRBQo4DYEewwXiUIAH9raUQ_default",
+    "modelKey": "bN4kI7TKxzRBQo4DYEewwXiUIAH9raUQ",
+    "name": "WorkflowStage",
+    "pageSize": 100,
+    "type": "QUERY"
+  }],
+  "defaultDataSourceKey": "bN4kI7TKxzRBQo4DYEewwXiUIAH9raUQ_default",
+  "eventPermissions": [
+    {
+      "name": "ON_CREATE",
+      "permissions": [
+        {
+          "script": "canModifyWorkflowStageRecord_(record, user, userRoles)",
+          "type": "script"
+        },
+        {
+          "groupKeys": ["Admins"],
+          "type": "groups"
+        }
+      ],
+      "type": "compound"
+    },
+    {
+      "name": "ON_LOAD",
+      "type": "compoundEveryone"
+    },
+    {
+      "name": "ON_SAVE",
+      "permissions": [
+        {
+          "script": "canModifyWorkflowStageRecord_(record, user, userRoles)",
+          "type": "script"
+        },
+        {
+          "groupKeys": ["Admins"],
+          "type": "groups"
+        }
+      ],
+      "type": "compound"
+    },
+    {
+      "name": "ON_DELETE",
+      "permissions": [
+        {
+          "script": "canModifyWorkflowStageRecord_(record, user, userRoles)",
+          "type": "script"
+        },
+        {
+          "groupKeys": ["Admins"],
+          "type": "groups"
+        }
+      ],
+      "type": "compound"
+    }
+  ],
+  "events": [{
+    "action": "var approvers \u003d record.Approvers;\napp.deleteRecords(approvers);",
+    "type": "ON_DELETE"
+  }],
+  "fields": [
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "OrderNo",
+      "defaultValue": 1,
+      "integer": false,
+      "key": "tsFgUkthoWYgPByP",
+      "name": "OrderNo",
+      "required": false,
+      "type": "Number"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "LastUpdated",
+      "key": "9c1MXXIzbItFDjLx",
+      "name": "LastUpdated",
+      "required": false,
+      "type": "Date"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "Type",
+      "defaultValue": "All",
+      "key": "7RvGwiIwTWoikh3K",
+      "minLength": 0,
+      "name": "Type",
+      "possibleValues": {
+        "list": [
+          "All",
+          "Any"
+        ],
+        "type": "List[String]"
+      },
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "Status",
+      "defaultValue": 0,
+      "integer": false,
+      "key": "WnlvdJPmt9qifxZt",
+      "name": "Status",
+      "possibleValues": {
+        "list": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "List[Number]"
+      },
+      "required": false,
+      "type": "Number"
+    }
+  ],
+  "key": "bN4kI7TKxzRBQo4DYEewwXiUIAH9raUQ",
+  "modelPermission": {
+    "name": "model permission",
+    "permissions": [
+      {
+        "script": "canModifyWorkflowStageRecord_(record, user, userRoles)",
+        "type": "script"
+      },
+      {
+        "groupKeys": ["Admins"],
+        "type": "groups"
+      }
+    ],
+    "type": "compound"
+  },
+  "name": "WorkflowStage",
+  "type": "BRIX",
+  "userIdFieldType": "USER_ID"
+}

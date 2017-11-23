@@ -1,0 +1,18 @@
+{
+  "databaseId": "BRIX",
+  "key": "UCuKtbsZL0Wfs2zzei9AYw5Gb3tYaixY",
+  "owner": "NONE",
+  "permission": {
+    "name": "CanModifyAssociations",
+    "type": "inherited"
+  },
+  "sourceArity": "MANY",
+  "sourceModelKey": "R8CV1vq2iz3fPsu66tr8IkPSsIDmlvTi",
+  "sourceName": "Comments",
+  "sourceSortAscending": true,
+  "sourceSortField": "pl0FuI2lMrhCy4vI",
+  "targetArity": "ONE",
+  "targetModelKey": "gXAfgfwd310fL5VvDyPGizYR6CwBjqY6",
+  "targetName": "Approver",
+  "targetSortAscending": true
+}

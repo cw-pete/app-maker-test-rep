@@ -1,0 +1,6 @@
+{
+  "content": "/**\n * @fileoverview App navigation module.\n */\n\n\n/**\n * Replaces the url history state to reflect the changes upon navigation from a different screen.\n * @param {String} requestId - id of the selected request.\n */\nfunction replaceUrlForRequestDetails(requestId) {\n  var state \u003d {\n    \u0027timestamp\u0027: new Date().getTime()\n  };\n  var params \u003d {\n    requestId: requestId\n  };\n  \n  google.script.history.replace(state, params, app.pages.EditRequest.name);\n}\n\n\n/**\n * Performs redirect to EditRequest page passing request id\n *     as a parameter.\n *\n * @param {String} requestId - id of the selected request;\n */\nfunction goToRequestDetailsPage(requestId) {\n  var requestDetailsPage \u003d app.pages.EditRequest;\n  requestDetailsPage.properties.requestId \u003d requestId;\n  app.showPage(requestDetailsPage);\n  replaceUrlForRequestDetails(requestId);\n}\n",
+  "key": "Nr8o7qGEVEBHvR77TaCeoB7rVYT9cokL",
+  "name": "Navigation",
+  "type": "CLIENT"
+}

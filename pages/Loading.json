@@ -1,0 +1,127 @@
+{
+  "class": "Panel",
+  "key": "SEIIIz25Ow6rTkAvuj09XxwbYZS8e2U0",
+  "permission": {
+    "name": "canRead",
+    "type": "compoundEveryone"
+  },
+  "propList": [
+    {
+      "k": "styleMap",
+      "v": {
+        "name": "styleMap",
+        "properties": [],
+        "type": "PropertyMap[styleMap]"
+      }
+    },
+    {
+      "k": "width",
+      "v": 136
+    },
+    {
+      "k": "height",
+      "v": 136
+    },
+    {
+      "k": "name",
+      "v": "Loading"
+    },
+    {
+      "k": "isCustomWidget",
+      "v": true
+    },
+    {
+      "k": "top",
+      "v": 4
+    },
+    {
+      "k": "left",
+      "v": 4
+    },
+    {
+      "k": "children",
+      "v": {
+        "list": [{
+          "class": "LoadingIndicator",
+          "key": "0_2108457954",
+          "propList": [
+            {
+              "k": "styleMap",
+              "v": {
+                "name": "styleMap",
+                "properties": [],
+                "type": "PropertyMap[styleMap]"
+              }
+            },
+            {
+              "k": "bindings",
+              "v": {
+                "list": [],
+                "type": "List[BindingInfo]"
+              }
+            },
+            {
+              "k": "width",
+              "v": 88
+            },
+            {
+              "k": "height",
+              "v": 88
+            },
+            {
+              "k": "resizeMode",
+              "v": "constrain"
+            },
+            {
+              "k": "altText",
+              "v": "Loading"
+            },
+            {
+              "k": "name",
+              "v": "Spinner1"
+            },
+            {
+              "k": "left",
+              "v": 24
+            },
+            {
+              "k": "top",
+              "v": 24
+            },
+            {
+              "k": "right",
+              "v": 24
+            },
+            {
+              "k": "bottom",
+              "v": 30
+            },
+            {
+              "k": "constrain_bottom",
+              "v": false
+            },
+            {
+              "k": "constrain_height",
+              "v": true
+            },
+            {
+              "k": "constrain_right",
+              "v": false
+            },
+            {
+              "k": "constrain_width",
+              "v": true
+            }
+          ],
+          "type": "ComponentInfo"
+        }],
+        "type": "List[ComponentInfo]"
+      }
+    },
+    {
+      "k": "variant",
+      "v": "Transparent"
+    }
+  ],
+  "type": "ComponentInfo"
+}

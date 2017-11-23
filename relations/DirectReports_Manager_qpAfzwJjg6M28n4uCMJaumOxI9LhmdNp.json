@@ -1,0 +1,17 @@
+{
+  "databaseId": "DIRECTORY_API",
+  "key": "qpAfzwJjg6M28n4uCMJaumOxI9LhmdNp",
+  "owner": "NONE",
+  "permission": {
+    "name": "CanModifyAssociations",
+    "type": "inherited"
+  },
+  "sourceArity": "MANY",
+  "sourceModelKey": "DirectoryModelKey",
+  "sourceName": "DirectReports",
+  "sourceSortAscending": true,
+  "targetArity": "ONE",
+  "targetModelKey": "DirectoryModelKey",
+  "targetName": "Manager",
+  "targetSortAscending": true
+}

@@ -1,0 +1,172 @@
+{
+  "dataSources": [{
+    "customQuery": "return getCurrentUser_();",
+    "key": "DirectoryModelKey_default",
+    "modelKey": "DirectoryModelKey",
+    "name": "CurrentUser",
+    "pageSize": 1,
+    "type": "QUERY"
+  }],
+  "defaultDataSourceKey": "DirectoryModelKey_default",
+  "eventPermissions": [
+    {
+      "name": "ON_CREATE",
+      "type": "compoundEveryone"
+    },
+    {
+      "name": "ON_LOAD",
+      "type": "compoundEveryone"
+    },
+    {
+      "name": "ON_SAVE",
+      "type": "compoundEveryone"
+    },
+    {
+      "name": "ON_DELETE",
+      "type": "compoundEveryone"
+    }
+  ],
+  "events": [],
+  "fields": [
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq"
+      ],
+      "key": "FullName",
+      "minLength": 0,
+      "name": "FullName",
+      "required": false,
+      "sortable": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "startsWith"
+      ],
+      "key": "GivenName",
+      "minLength": 0,
+      "name": "GivenName",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "startsWith"
+      ],
+      "key": "FamilyName",
+      "minLength": 0,
+      "name": "FamilyName",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "startsWith"
+      ],
+      "key": "PrimaryEmail",
+      "minLength": 0,
+      "name": "PrimaryEmail",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [],
+      "key": "PrimaryPhone",
+      "minLength": 0,
+      "name": "PrimaryPhone",
+      "required": false,
+      "sortable": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [],
+      "key": "PrimaryAddress",
+      "minLength": 0,
+      "name": "PrimaryAddress",
+      "required": false,
+      "sortable": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq"
+      ],
+      "key": "OrganizationExternalId",
+      "minLength": 0,
+      "name": "OrganizationExternalId",
+      "required": false,
+      "sortable": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [],
+      "key": "PrimaryOrganizationTitle",
+      "minLength": 0,
+      "name": "PrimaryOrganizationTitle",
+      "required": false,
+      "sortable": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [],
+      "key": "PrimaryOrganizationDepartment",
+      "minLength": 0,
+      "name": "PrimaryOrganizationDepartment",
+      "required": false,
+      "sortable": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [],
+      "key": "PrimaryOrganizationLocation",
+      "minLength": 0,
+      "name": "PrimaryOrganizationLocation",
+      "required": false,
+      "sortable": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [],
+      "key": "ThumbnailPhotoUrl",
+      "minLength": 0,
+      "name": "ThumbnailPhotoUrl",
+      "required": false,
+      "sortable": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": ["eq"],
+      "key": "DirectManagerEmail",
+      "minLength": 0,
+      "name": "DirectManagerEmail",
+      "required": false,
+      "sortable": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [],
+      "key": "DirectManagerName",
+      "minLength": 0,
+      "name": "DirectManagerName",
+      "required": false,
+      "sortable": false,
+      "type": "String"
+    }
+  ],
+  "key": "DirectoryModelKey",
+  "modelPermission": {
+    "name": "model permission",
+    "type": "compoundEveryone"
+  },
+  "name": "Directory",
+  "type": "DIRECTORY_API",
+  "userIdFieldType": "USER_ID"
+}

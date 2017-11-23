@@ -1,0 +1,1766 @@
+{
+  "class": "Panel",
+  "customPropertyDescriptions": [{
+    "category": "Custom Properties",
+    "deprecated": false,
+    "designTime": false,
+    "experimental": false,
+    "hidden": false,
+    "key": "KEYomH3U",
+    "name": "pages",
+    "persisted": true,
+    "readonly": false,
+    "type": "List[String]"
+  }],
+  "customPropertyValues": {
+    "name": "CustomProperties",
+    "properties": [{
+      "name": "KEYomH3U",
+      "value": {
+        "list": [],
+        "type": "List[String]"
+      }
+    }],
+    "type": "PropertyMap[CustomProperties]"
+  },
+  "key": "YSSOhM4RVhbd3ROGW9nFWIczUjBH56kT",
+  "permission": {
+    "name": "canRead",
+    "permissions": [
+      {"type": "everyone"},
+      {
+        "groupKeys": ["Admins"],
+        "type": "groups"
+      }
+    ],
+    "type": "compound"
+  },
+  "propList": [
+    {
+      "k": "styleMap",
+      "v": {
+        "name": "styleMap",
+        "properties": [],
+        "type": "PropertyMap[styleMap]"
+      }
+    },
+    {
+      "k": "name",
+      "v": "Menu"
+    },
+    {
+      "k": "styles",
+      "v": {
+        "list": ["menu"],
+        "type": "List[String]"
+      }
+    },
+    {
+      "k": "constrain_left",
+      "v": true
+    },
+    {
+      "k": "left",
+      "v": 25
+    },
+    {
+      "k": "constrain_right",
+      "v": false
+    },
+    {
+      "k": "right",
+      "v": 0
+    },
+    {
+      "k": "constrain_width",
+      "v": true
+    },
+    {
+      "k": "width",
+      "v": 320
+    },
+    {
+      "k": "constrain_minWidth",
+      "v": false
+    },
+    {
+      "k": "minWidth",
+      "v": 0
+    },
+    {
+      "k": "constrain_maxWidth",
+      "v": false
+    },
+    {
+      "k": "maxWidth",
+      "v": 0
+    },
+    {
+      "k": "constrain_top",
+      "v": true
+    },
+    {
+      "k": "top",
+      "v": 5
+    },
+    {
+      "k": "constrain_bottom",
+      "v": false
+    },
+    {
+      "k": "bottom",
+      "v": 0
+    },
+    {
+      "k": "constrain_height",
+      "v": true
+    },
+    {
+      "k": "height",
+      "v": 745
+    },
+    {
+      "k": "constrain_minHeight",
+      "v": false
+    },
+    {
+      "k": "minHeight",
+      "v": 0
+    },
+    {
+      "k": "constrain_maxHeight",
+      "v": false
+    },
+    {
+      "k": "maxHeight",
+      "v": 0
+    },
+    {
+      "k": "autoHeight",
+      "v": false
+    },
+    {
+      "k": "autoWidth",
+      "v": false
+    },
+    {
+      "k": "align",
+      "v": "inherited"
+    },
+    {
+      "k": "grow",
+      "v": 0
+    },
+    {
+      "k": "showValidationErrors",
+      "v": false
+    },
+    {
+      "k": "variant",
+      "v": "Transparent"
+    },
+    {
+      "k": "createChildrenOnInit",
+      "v": "ON_INIT"
+    },
+    {
+      "k": "layout",
+      "v": "fixed"
+    },
+    {
+      "k": "wrap",
+      "v": "nowrap"
+    },
+    {
+      "k": "justify",
+      "v": "start"
+    },
+    {
+      "k": "alignChildren",
+      "v": "baseline"
+    },
+    {
+      "k": "wrapAlign",
+      "v": "stretch"
+    },
+    {
+      "k": "title",
+      "v": ""
+    },
+    {
+      "k": "visible",
+      "v": true
+    },
+    {
+      "k": "isCustomWidget",
+      "v": true
+    },
+    {
+      "k": "children",
+      "v": {
+        "list": [{
+          "class": "Panel",
+          "key": "0_1901114836",
+          "propList": [
+            {
+              "k": "styleMap",
+              "v": {
+                "name": "styleMap",
+                "properties": [],
+                "type": "PropertyMap[styleMap]"
+              }
+            },
+            {
+              "k": "name",
+              "v": "MenuContainer"
+            },
+            {
+              "k": "styles",
+              "v": {
+                "list": ["menu-card"],
+                "type": "List[String]"
+              }
+            },
+            {
+              "k": "constrain_left",
+              "v": true
+            },
+            {
+              "k": "left",
+              "v": 0
+            },
+            {
+              "k": "constrain_right",
+              "v": false
+            },
+            {
+              "k": "right",
+              "v": 29
+            },
+            {
+              "k": "constrain_width",
+              "v": true
+            },
+            {
+              "k": "width",
+              "v": 312
+            },
+            {
+              "k": "constrain_minWidth",
+              "v": false
+            },
+            {
+              "k": "minWidth",
+              "v": 0
+            },
+            {
+              "k": "constrain_maxWidth",
+              "v": false
+            },
+            {
+              "k": "maxWidth",
+              "v": 0
+            },
+            {
+              "k": "constrain_top",
+              "v": true
+            },
+            {
+              "k": "top",
+              "v": 0
+            },
+            {
+              "k": "constrain_bottom",
+              "v": true
+            },
+            {
+              "k": "bottom",
+              "v": 0
+            },
+            {
+              "k": "constrain_height",
+              "v": false
+            },
+            {
+              "k": "height",
+              "v": 586
+            },
+            {
+              "k": "constrain_minHeight",
+              "v": false
+            },
+            {
+              "k": "minHeight",
+              "v": 0
+            },
+            {
+              "k": "constrain_maxHeight",
+              "v": false
+            },
+            {
+              "k": "maxHeight",
+              "v": 0
+            },
+            {
+              "k": "autoHeight",
+              "v": false
+            },
+            {
+              "k": "autoWidth",
+              "v": false
+            },
+            {
+              "k": "align",
+              "v": "inherited"
+            },
+            {
+              "k": "grow",
+              "v": 0
+            },
+            {
+              "k": "showValidationErrors",
+              "v": false
+            },
+            {
+              "k": "variant",
+              "v": "Paper"
+            },
+            {
+              "k": "createChildrenOnInit",
+              "v": "ON_INIT"
+            },
+            {
+              "k": "layout",
+              "v": "vertical"
+            },
+            {
+              "k": "wrap",
+              "v": "nowrap"
+            },
+            {
+              "k": "justify",
+              "v": "start"
+            },
+            {
+              "k": "alignChildren",
+              "v": "center"
+            },
+            {
+              "k": "wrapAlign",
+              "v": "stretch"
+            },
+            {
+              "k": "title",
+              "v": ""
+            },
+            {
+              "k": "visible",
+              "v": true
+            },
+            {
+              "k": "bindings",
+              "v": {
+                "list": [],
+                "type": "List[BindingInfo]"
+              }
+            },
+            {
+              "k": "onLoad",
+              "v": {
+                "isNull": true,
+                "type": "String"
+              }
+            },
+            {
+              "k": "onUnload",
+              "v": {
+                "isNull": true,
+                "type": "String"
+              }
+            },
+            {
+              "k": "onDataLoad",
+              "v": {
+                "isNull": true,
+                "type": "String"
+              }
+            },
+            {
+              "k": "action",
+              "v": "event.stopPropagation();"
+            },
+            {
+              "k": "children",
+              "v": {
+                "list": [
+                  {
+                    "class": "Panel",
+                    "key": "0_1832736495",
+                    "propList": [
+                      {
+                        "k": "styleMap",
+                        "v": {
+                          "name": "styleMap",
+                          "properties": [],
+                          "type": "PropertyMap[styleMap]"
+                        }
+                      },
+                      {
+                        "k": "width",
+                        "v": 312
+                      },
+                      {
+                        "k": "height",
+                        "v": 200
+                      },
+                      {
+                        "k": "name",
+                        "v": "Panel1"
+                      },
+                      {
+                        "k": "left",
+                        "v": 0
+                      },
+                      {
+                        "k": "top",
+                        "v": 0
+                      },
+                      {
+                        "k": "right",
+                        "v": 0
+                      },
+                      {
+                        "k": "bottom",
+                        "v": 660
+                      },
+                      {
+                        "k": "children",
+                        "v": {
+                          "list": [
+                            {
+                              "class": "ImageComponent",
+                              "key": "0_1486220614",
+                              "propList": [
+                                {
+                                  "k": "styleMap",
+                                  "v": {
+                                    "name": "styleMap",
+                                    "properties": [],
+                                    "type": "PropertyMap[styleMap]"
+                                  }
+                                },
+                                {
+                                  "k": "width",
+                                  "v": 312
+                                },
+                                {
+                                  "k": "height",
+                                  "v": 200
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "Image1"
+                                },
+                                {
+                                  "k": "top",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "left",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "right",
+                                  "v": 52
+                                },
+                                {
+                                  "k": "bottom",
+                                  "v": -71
+                                },
+                                {
+                                  "k": "bindings",
+                                  "v": {
+                                    "list": [{
+                                      "sourceExpression": "url",
+                                      "targetExpression": "@datasources.UH5WdJTnPBEWiAWyDxvBf914Snsxfa6M_default.item.vnkAqXe2NQs9wPBi",
+                                      "targetLiteralExpression": "@datasources.AppSettings.item.FeatureImageUrl",
+                                      "type": "BindingInfo"
+                                    }],
+                                    "type": "List[BindingInfo]"
+                                  }
+                                },
+                                {
+                                  "k": "url",
+                                  "v": "https://www.gstatic.com/appmaker/wallpaper-kleiner-google-blue.jpg"
+                                }
+                              ],
+                              "type": "ComponentInfo"
+                            },
+                            {
+                              "class": "SimpleButton",
+                              "key": "7_1543765313",
+                              "propList": [
+                                {
+                                  "k": "styleMap",
+                                  "v": {
+                                    "name": "styleMap",
+                                    "properties": [],
+                                    "type": "PropertyMap[styleMap]"
+                                  }
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "CloseButton"
+                                },
+                                {
+                                  "k": "styles",
+                                  "v": {
+                                    "list": [],
+                                    "type": "List[String]"
+                                  }
+                                },
+                                {
+                                  "k": "constrain_left",
+                                  "v": false
+                                },
+                                {
+                                  "k": "left",
+                                  "v": 272
+                                },
+                                {
+                                  "k": "constrain_right",
+                                  "v": true
+                                },
+                                {
+                                  "k": "right",
+                                  "v": 16
+                                },
+                                {
+                                  "k": "constrain_width",
+                                  "v": true
+                                },
+                                {
+                                  "k": "width",
+                                  "v": 32
+                                },
+                                {
+                                  "k": "constrain_minWidth",
+                                  "v": false
+                                },
+                                {
+                                  "k": "minWidth",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "constrain_maxWidth",
+                                  "v": false
+                                },
+                                {
+                                  "k": "maxWidth",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "constrain_top",
+                                  "v": true
+                                },
+                                {
+                                  "k": "top",
+                                  "v": 16
+                                },
+                                {
+                                  "k": "constrain_bottom",
+                                  "v": false
+                                },
+                                {
+                                  "k": "bottom",
+                                  "v": 152
+                                },
+                                {
+                                  "k": "constrain_height",
+                                  "v": true
+                                },
+                                {
+                                  "k": "height",
+                                  "v": 32
+                                },
+                                {
+                                  "k": "constrain_minHeight",
+                                  "v": false
+                                },
+                                {
+                                  "k": "minHeight",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "constrain_maxHeight",
+                                  "v": false
+                                },
+                                {
+                                  "k": "maxHeight",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "autoHeight",
+                                  "v": false
+                                },
+                                {
+                                  "k": "autoWidth",
+                                  "v": false
+                                },
+                                {
+                                  "k": "align",
+                                  "v": "inherited"
+                                },
+                                {
+                                  "k": "grow",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "showValidationErrors",
+                                  "v": true
+                                },
+                                {
+                                  "k": "variant",
+                                  "v": "IconDark"
+                                },
+                                {
+                                  "k": "tabIndex",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "text",
+                                  "v": "close"
+                                },
+                                {
+                                  "k": "enabled",
+                                  "v": true
+                                },
+                                {
+                                  "k": "title",
+                                  "v": ""
+                                },
+                                {
+                                  "k": "visible",
+                                  "v": true
+                                },
+                                {
+                                  "k": "bindings",
+                                  "v": {
+                                    "list": [],
+                                    "type": "List[BindingInfo]"
+                                  }
+                                },
+                                {
+                                  "k": "onLoad",
+                                  "v": {
+                                    "isNull": true,
+                                    "type": "String"
+                                  }
+                                },
+                                {
+                                  "k": "onUnload",
+                                  "v": {
+                                    "isNull": true,
+                                    "type": "String"
+                                  }
+                                },
+                                {
+                                  "k": "onDataLoad",
+                                  "v": {
+                                    "isNull": true,
+                                    "type": "String"
+                                  }
+                                },
+                                {
+                                  "k": "action",
+                                  "v": "toggleMenu();"
+                                }
+                              ],
+                              "type": "ComponentInfo"
+                            },
+                            {
+                              "class": "SimpleLabel",
+                              "key": "0_1285173042",
+                              "propList": [
+                                {
+                                  "k": "styleMap",
+                                  "v": {
+                                    "name": "styleMap",
+                                    "properties": [],
+                                    "type": "PropertyMap[styleMap]"
+                                  }
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "Label1"
+                                },
+                                {
+                                  "k": "styles",
+                                  "v": {
+                                    "list": [],
+                                    "type": "List[String]"
+                                  }
+                                },
+                                {
+                                  "k": "constrain_left",
+                                  "v": true
+                                },
+                                {
+                                  "k": "left",
+                                  "v": 16
+                                },
+                                {
+                                  "k": "constrain_right",
+                                  "v": false
+                                },
+                                {
+                                  "k": "right",
+                                  "v": 72
+                                },
+                                {
+                                  "k": "constrain_width",
+                                  "v": true
+                                },
+                                {
+                                  "k": "width",
+                                  "v": 232
+                                },
+                                {
+                                  "k": "constrain_minWidth",
+                                  "v": false
+                                },
+                                {
+                                  "k": "minWidth",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "constrain_maxWidth",
+                                  "v": false
+                                },
+                                {
+                                  "k": "maxWidth",
+                                  "v": 232
+                                },
+                                {
+                                  "k": "constrain_top",
+                                  "v": true
+                                },
+                                {
+                                  "k": "top",
+                                  "v": 19
+                                },
+                                {
+                                  "k": "constrain_bottom",
+                                  "v": false
+                                },
+                                {
+                                  "k": "bottom",
+                                  "v": 161
+                                },
+                                {
+                                  "k": "constrain_height",
+                                  "v": true
+                                },
+                                {
+                                  "k": "height",
+                                  "v": 20
+                                },
+                                {
+                                  "k": "constrain_minHeight",
+                                  "v": false
+                                },
+                                {
+                                  "k": "minHeight",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "constrain_maxHeight",
+                                  "v": false
+                                },
+                                {
+                                  "k": "maxHeight",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "autoHeight",
+                                  "v": true
+                                },
+                                {
+                                  "k": "autoWidth",
+                                  "v": true
+                                },
+                                {
+                                  "k": "align",
+                                  "v": "inherited"
+                                },
+                                {
+                                  "k": "grow",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "showValidationErrors",
+                                  "v": true
+                                },
+                                {
+                                  "k": "variant",
+                                  "v": "Title"
+                                },
+                                {
+                                  "k": "text",
+                                  "v": "Workflow Template"
+                                },
+                                {
+                                  "k": "title",
+                                  "v": ""
+                                },
+                                {
+                                  "k": "visible",
+                                  "v": true
+                                },
+                                {
+                                  "k": "bindings",
+                                  "v": {
+                                    "list": [{
+                                      "sourceExpression": "text",
+                                      "targetExpression": "@datasources.UH5WdJTnPBEWiAWyDxvBf914Snsxfa6M_default.item.039C4S9g2UQRJVei",
+                                      "targetLiteralExpression": "@datasources.AppSettings.item.AppName",
+                                      "type": "BindingInfo"
+                                    }],
+                                    "type": "List[BindingInfo]"
+                                  }
+                                },
+                                {
+                                  "k": "onLoad",
+                                  "v": {
+                                    "isNull": true,
+                                    "type": "String"
+                                  }
+                                },
+                                {
+                                  "k": "onUnload",
+                                  "v": {
+                                    "isNull": true,
+                                    "type": "String"
+                                  }
+                                },
+                                {
+                                  "k": "onDataLoad",
+                                  "v": {
+                                    "isNull": true,
+                                    "type": "String"
+                                  }
+                                },
+                                {
+                                  "k": "action",
+                                  "v": {
+                                    "isNull": true,
+                                    "type": "String"
+                                  }
+                                }
+                              ],
+                              "type": "ComponentInfo"
+                            }
+                          ],
+                          "type": "List[ComponentInfo]"
+                        }
+                      },
+                      {
+                        "k": "onDataLoad",
+                        "v": {
+                          "isNull": true,
+                          "type": "String"
+                        }
+                      },
+                      {
+                        "k": "variant",
+                        "v": "Dark"
+                      },
+                      {
+                        "k": "styles",
+                        "v": {
+                          "list": ["app-image"],
+                          "type": "List[String]"
+                        }
+                      },
+                      {
+                        "k": "onUnload",
+                        "v": {
+                          "isNull": true,
+                          "type": "String"
+                        }
+                      },
+                      {
+                        "k": "onLoad",
+                        "v": {
+                          "isNull": true,
+                          "type": "String"
+                        }
+                      }
+                    ],
+                    "type": "ComponentInfo"
+                  },
+                  {
+                    "class": "Panel",
+                    "key": "9_352047860",
+                    "propList": [
+                      {
+                        "k": "styleMap",
+                        "v": {
+                          "name": "styleMap",
+                          "properties": [],
+                          "type": "PropertyMap[styleMap]"
+                        }
+                      },
+                      {
+                        "k": "name",
+                        "v": "LogoCircle"
+                      },
+                      {
+                        "k": "styles",
+                        "v": {
+                          "list": ["product-logo"],
+                          "type": "List[String]"
+                        }
+                      },
+                      {
+                        "k": "constrain_left",
+                        "v": true
+                      },
+                      {
+                        "k": "left",
+                        "v": 0
+                      },
+                      {
+                        "k": "constrain_right",
+                        "v": false
+                      },
+                      {
+                        "k": "right",
+                        "v": 0
+                      },
+                      {
+                        "k": "constrain_width",
+                        "v": true
+                      },
+                      {
+                        "k": "width",
+                        "v": 80
+                      },
+                      {
+                        "k": "constrain_minWidth",
+                        "v": false
+                      },
+                      {
+                        "k": "minWidth",
+                        "v": 0
+                      },
+                      {
+                        "k": "constrain_maxWidth",
+                        "v": false
+                      },
+                      {
+                        "k": "maxWidth",
+                        "v": 0
+                      },
+                      {
+                        "k": "constrain_top",
+                        "v": true
+                      },
+                      {
+                        "k": "top",
+                        "v": 0
+                      },
+                      {
+                        "k": "constrain_bottom",
+                        "v": false
+                      },
+                      {
+                        "k": "bottom",
+                        "v": 0
+                      },
+                      {
+                        "k": "constrain_height",
+                        "v": true
+                      },
+                      {
+                        "k": "height",
+                        "v": 80
+                      },
+                      {
+                        "k": "constrain_minHeight",
+                        "v": false
+                      },
+                      {
+                        "k": "minHeight",
+                        "v": 0
+                      },
+                      {
+                        "k": "constrain_maxHeight",
+                        "v": false
+                      },
+                      {
+                        "k": "maxHeight",
+                        "v": 0
+                      },
+                      {
+                        "k": "autoHeight",
+                        "v": false
+                      },
+                      {
+                        "k": "autoWidth",
+                        "v": false
+                      },
+                      {
+                        "k": "align",
+                        "v": "inherited"
+                      },
+                      {
+                        "k": "grow",
+                        "v": 0
+                      },
+                      {
+                        "k": "showValidationErrors",
+                        "v": false
+                      },
+                      {
+                        "k": "variant",
+                        "v": "Background"
+                      },
+                      {
+                        "k": "createChildrenOnInit",
+                        "v": "ON_INIT"
+                      },
+                      {
+                        "k": "layout",
+                        "v": "horizontal"
+                      },
+                      {
+                        "k": "wrap",
+                        "v": "nowrap"
+                      },
+                      {
+                        "k": "justify",
+                        "v": "center"
+                      },
+                      {
+                        "k": "alignChildren",
+                        "v": "center"
+                      },
+                      {
+                        "k": "wrapAlign",
+                        "v": "stretch"
+                      },
+                      {
+                        "k": "title",
+                        "v": ""
+                      },
+                      {
+                        "k": "visible",
+                        "v": true
+                      },
+                      {
+                        "k": "bindings",
+                        "v": {
+                          "list": [],
+                          "type": "List[BindingInfo]"
+                        }
+                      },
+                      {
+                        "k": "onLoad",
+                        "v": {
+                          "isNull": true,
+                          "type": "String"
+                        }
+                      },
+                      {
+                        "k": "onUnload",
+                        "v": {
+                          "isNull": true,
+                          "type": "String"
+                        }
+                      },
+                      {
+                        "k": "onDataLoad",
+                        "v": {
+                          "isNull": true,
+                          "type": "String"
+                        }
+                      },
+                      {
+                        "k": "action",
+                        "v": {
+                          "isNull": true,
+                          "type": "String"
+                        }
+                      },
+                      {
+                        "k": "css",
+                        "v": ".app-StickerSheet-circle7 {\n  background-image: url(\u0027https://www.gstatic.com/images/icons/material/product/2x/google_now_64dp.png\u0027);\n  background-size: cover;\n  border-radius: 50%;\n  box-shadow: none;\n  margin-bottom: 16px;\n  margin-top: 124px;\n}\n"
+                      },
+                      {
+                        "k": "children",
+                        "v": {
+                          "list": [{
+                            "class": "ImageComponent",
+                            "key": "0_29851280",
+                            "propList": [
+                              {
+                                "k": "styleMap",
+                                "v": {
+                                  "name": "styleMap",
+                                  "properties": [],
+                                  "type": "PropertyMap[styleMap]"
+                                }
+                              },
+                              {
+                                "k": "width",
+                                "v": 80
+                              },
+                              {
+                                "k": "height",
+                                "v": 80
+                              },
+                              {
+                                "k": "name",
+                                "v": "Image2"
+                              },
+                              {
+                                "k": "left",
+                                "v": 0
+                              },
+                              {
+                                "k": "top",
+                                "v": 0
+                              },
+                              {
+                                "k": "right",
+                                "v": -15
+                              },
+                              {
+                                "k": "bottom",
+                                "v": -192
+                              },
+                              {
+                                "k": "bindings",
+                                "v": {
+                                  "list": [{
+                                    "sourceExpression": "url",
+                                    "targetExpression": "@datasources.UH5WdJTnPBEWiAWyDxvBf914Snsxfa6M_default.item.L77kQWLqqpb896PZ",
+                                    "targetLiteralExpression": "@datasources.AppSettings.item.LogoUrl",
+                                    "type": "BindingInfo"
+                                  }],
+                                  "type": "List[BindingInfo]"
+                                }
+                              },
+                              {
+                                "k": "url",
+                                "v": "https://www.gstatic.com/appmaker/logo_google_now_color_1x_web_512dp.png"
+                              }
+                            ],
+                            "type": "ComponentInfo"
+                          }],
+                          "type": "List[ComponentInfo]"
+                        }
+                      }
+                    ],
+                    "type": "ComponentInfo"
+                  },
+                  {
+                    "class": "ListPanel",
+                    "key": "0_1825831071",
+                    "propList": [
+                      {
+                        "k": "styleMap",
+                        "v": {
+                          "name": "styleMap",
+                          "properties": [],
+                          "type": "PropertyMap[styleMap]"
+                        }
+                      },
+                      {
+                        "k": "name",
+                        "v": "MenuList"
+                      },
+                      {
+                        "k": "styles",
+                        "v": {
+                          "list": ["menu-list"],
+                          "type": "List[String]"
+                        }
+                      },
+                      {
+                        "k": "constrain_left",
+                        "v": true
+                      },
+                      {
+                        "k": "left",
+                        "v": 0
+                      },
+                      {
+                        "k": "constrain_right",
+                        "v": false
+                      },
+                      {
+                        "k": "right",
+                        "v": 0
+                      },
+                      {
+                        "k": "constrain_width",
+                        "v": true
+                      },
+                      {
+                        "k": "width",
+                        "v": 312
+                      },
+                      {
+                        "k": "constrain_minWidth",
+                        "v": false
+                      },
+                      {
+                        "k": "minWidth",
+                        "v": 0
+                      },
+                      {
+                        "k": "constrain_maxWidth",
+                        "v": false
+                      },
+                      {
+                        "k": "maxWidth",
+                        "v": 0
+                      },
+                      {
+                        "k": "constrain_top",
+                        "v": true
+                      },
+                      {
+                        "k": "top",
+                        "v": 320
+                      },
+                      {
+                        "k": "constrain_bottom",
+                        "v": true
+                      },
+                      {
+                        "k": "bottom",
+                        "v": 0
+                      },
+                      {
+                        "k": "constrain_height",
+                        "v": false
+                      },
+                      {
+                        "k": "height",
+                        "v": 485
+                      },
+                      {
+                        "k": "constrain_minHeight",
+                        "v": false
+                      },
+                      {
+                        "k": "minHeight",
+                        "v": 0
+                      },
+                      {
+                        "k": "constrain_maxHeight",
+                        "v": false
+                      },
+                      {
+                        "k": "maxHeight",
+                        "v": 0
+                      },
+                      {
+                        "k": "autoHeight",
+                        "v": true
+                      },
+                      {
+                        "k": "autoWidth",
+                        "v": false
+                      },
+                      {
+                        "k": "align",
+                        "v": "inherited"
+                      },
+                      {
+                        "k": "grow",
+                        "v": 0
+                      },
+                      {
+                        "k": "showValidationErrors",
+                        "v": false
+                      },
+                      {
+                        "k": "variant",
+                        "v": "Menu"
+                      },
+                      {
+                        "k": "layout",
+                        "v": "vertical"
+                      },
+                      {
+                        "k": "prototype",
+                        "v": {
+                          "appKey": "1_206288816",
+                          "type": "AppChildKey"
+                        }
+                      },
+                      {
+                        "k": "children",
+                        "v": {
+                          "list": [{
+                            "class": "Panel",
+                            "key": "1_206288816",
+                            "propList": [
+                              {
+                                "k": "styleMap",
+                                "v": {
+                                  "name": "styleMap",
+                                  "properties": [],
+                                  "type": "PropertyMap[styleMap]"
+                                }
+                              },
+                              {
+                                "k": "height",
+                                "v": 43
+                              },
+                              {
+                                "k": "autoWidth",
+                                "v": true
+                              },
+                              {
+                                "k": "align",
+                                "v": "stretch"
+                              },
+                              {
+                                "k": "name",
+                                "v": "MenuListRow"
+                              },
+                              {
+                                "k": "styleDescriptorName",
+                                "v": "ListPanelRow"
+                              },
+                              {
+                                "k": "suffixName",
+                                "v": "Row"
+                              },
+                              {
+                                "k": "styles",
+                                "v": {
+                                  "list": ["menu-row"],
+                                  "type": "List[String]"
+                                }
+                              },
+                              {
+                                "k": "constrain_left",
+                                "v": true
+                              },
+                              {
+                                "k": "left",
+                                "v": 0
+                              },
+                              {
+                                "k": "constrain_right",
+                                "v": false
+                              },
+                              {
+                                "k": "right",
+                                "v": 312
+                              },
+                              {
+                                "k": "constrain_width",
+                                "v": true
+                              },
+                              {
+                                "k": "width",
+                                "v": 0
+                              },
+                              {
+                                "k": "constrain_minWidth",
+                                "v": false
+                              },
+                              {
+                                "k": "minWidth",
+                                "v": 0
+                              },
+                              {
+                                "k": "constrain_maxWidth",
+                                "v": false
+                              },
+                              {
+                                "k": "maxWidth",
+                                "v": 0
+                              },
+                              {
+                                "k": "constrain_top",
+                                "v": true
+                              },
+                              {
+                                "k": "top",
+                                "v": 0
+                              },
+                              {
+                                "k": "constrain_bottom",
+                                "v": false
+                              },
+                              {
+                                "k": "bottom",
+                                "v": 0
+                              },
+                              {
+                                "k": "constrain_height",
+                                "v": true
+                              },
+                              {
+                                "k": "constrain_minHeight",
+                                "v": false
+                              },
+                              {
+                                "k": "minHeight",
+                                "v": 32
+                              },
+                              {
+                                "k": "constrain_maxHeight",
+                                "v": false
+                              },
+                              {
+                                "k": "maxHeight",
+                                "v": 0
+                              },
+                              {
+                                "k": "autoHeight",
+                                "v": true
+                              },
+                              {
+                                "k": "grow",
+                                "v": 0
+                              },
+                              {
+                                "k": "showValidationErrors",
+                                "v": false
+                              },
+                              {
+                                "k": "variant",
+                                "v": "Regular"
+                              },
+                              {
+                                "k": "createChildrenOnInit",
+                                "v": "ON_INIT"
+                              },
+                              {
+                                "k": "layout",
+                                "v": "vertical"
+                              },
+                              {
+                                "k": "wrap",
+                                "v": "nowrap"
+                              },
+                              {
+                                "k": "justify",
+                                "v": "center"
+                              },
+                              {
+                                "k": "alignChildren",
+                                "v": "baseline"
+                              },
+                              {
+                                "k": "wrapAlign",
+                                "v": "stretch"
+                              },
+                              {
+                                "k": "title",
+                                "v": ""
+                              },
+                              {
+                                "k": "visible",
+                                "v": true
+                              },
+                              {
+                                "k": "bindings",
+                                "v": {
+                                  "list": [],
+                                  "type": "List[BindingInfo]"
+                                }
+                              },
+                              {
+                                "k": "children",
+                                "v": {
+                                  "list": [{
+                                    "class": "SimpleLabel",
+                                    "key": "0_787027792",
+                                    "propList": [
+                                      {
+                                        "k": "styleMap",
+                                        "v": {
+                                          "name": "styleMap",
+                                          "properties": [],
+                                          "type": "PropertyMap[styleMap]"
+                                        }
+                                      },
+                                      {
+                                        "k": "name",
+                                        "v": "MenuItem"
+                                      },
+                                      {
+                                        "k": "styles",
+                                        "v": {
+                                          "list": ["menu-text"],
+                                          "type": "List[String]"
+                                        }
+                                      },
+                                      {
+                                        "k": "constrain_left",
+                                        "v": true
+                                      },
+                                      {
+                                        "k": "left",
+                                        "v": 24
+                                      },
+                                      {
+                                        "k": "constrain_right",
+                                        "v": false
+                                      },
+                                      {
+                                        "k": "right",
+                                        "v": -13
+                                      },
+                                      {
+                                        "k": "constrain_width",
+                                        "v": true
+                                      },
+                                      {
+                                        "k": "width",
+                                        "v": 301
+                                      },
+                                      {
+                                        "k": "constrain_minWidth",
+                                        "v": false
+                                      },
+                                      {
+                                        "k": "minWidth",
+                                        "v": 0
+                                      },
+                                      {
+                                        "k": "constrain_maxWidth",
+                                        "v": false
+                                      },
+                                      {
+                                        "k": "maxWidth",
+                                        "v": 300
+                                      },
+                                      {
+                                        "k": "constrain_top",
+                                        "v": true
+                                      },
+                                      {
+                                        "k": "top",
+                                        "v": 14
+                                      },
+                                      {
+                                        "k": "constrain_bottom",
+                                        "v": false
+                                      },
+                                      {
+                                        "k": "bottom",
+                                        "v": -2
+                                      },
+                                      {
+                                        "k": "constrain_height",
+                                        "v": true
+                                      },
+                                      {
+                                        "k": "height",
+                                        "v": 20
+                                      },
+                                      {
+                                        "k": "constrain_minHeight",
+                                        "v": false
+                                      },
+                                      {
+                                        "k": "minHeight",
+                                        "v": 0
+                                      },
+                                      {
+                                        "k": "constrain_maxHeight",
+                                        "v": false
+                                      },
+                                      {
+                                        "k": "maxHeight",
+                                        "v": 0
+                                      },
+                                      {
+                                        "k": "autoHeight",
+                                        "v": true
+                                      },
+                                      {
+                                        "k": "autoWidth",
+                                        "v": true
+                                      },
+                                      {
+                                        "k": "align",
+                                        "v": "inherited"
+                                      },
+                                      {
+                                        "k": "grow",
+                                        "v": 0
+                                      },
+                                      {
+                                        "k": "showValidationErrors",
+                                        "v": true
+                                      },
+                                      {
+                                        "k": "variant",
+                                        "v": "Regular"
+                                      },
+                                      {
+                                        "k": "text",
+                                        "v": "@expr"
+                                      },
+                                      {
+                                        "k": "title",
+                                        "v": ""
+                                      },
+                                      {
+                                        "k": "visible",
+                                        "v": true
+                                      },
+                                      {
+                                        "k": "bindings",
+                                        "v": {
+                                          "list": [{
+                                            "sourceExpression": "text",
+                                            "targetExpression": "getDisplayNameForPage(@datasource.item)",
+                                            "targetLiteralExpression": "getDisplayNameForPage(@datasource.item)",
+                                            "type": "BindingInfo"
+                                          }],
+                                          "type": "List[BindingInfo]"
+                                        }
+                                      },
+                                      {
+                                        "k": "onLoad",
+                                        "v": {
+                                          "isNull": true,
+                                          "type": "String"
+                                        }
+                                      },
+                                      {
+                                        "k": "onUnload",
+                                        "v": {
+                                          "isNull": true,
+                                          "type": "String"
+                                        }
+                                      },
+                                      {
+                                        "k": "onDataLoad",
+                                        "v": {
+                                          "isNull": true,
+                                          "type": "String"
+                                        }
+                                      },
+                                      {
+                                        "k": "action",
+                                        "v": {
+                                          "isNull": true,
+                                          "type": "String"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ComponentInfo"
+                                  }],
+                                  "type": "List[ComponentInfo]"
+                                }
+                              },
+                              {
+                                "k": "action",
+                                "v": "closeMenu();\napp.showPage(app.pages[widget.datasource.item]);\n"
+                              }
+                            ],
+                            "type": "ComponentInfo"
+                          }],
+                          "type": "List[ComponentInfo]"
+                        }
+                      },
+                      {
+                        "k": "title",
+                        "v": ""
+                      },
+                      {
+                        "k": "visible",
+                        "v": true
+                      },
+                      {
+                        "k": "bindings",
+                        "v": {
+                          "list": [
+                            {
+                              "sourceExpression": "_dataSource",
+                              "targetExpression": "@properties.KEYomH3U",
+                              "targetLiteralExpression": "@properties.pages",
+                              "type": "BindingInfo"
+                            },
+                            {
+                              "sourceExpression": "selectedIndex",
+                              "targetExpression": "getSelectedPageIndex(@datasource.items, @currentPage.name)",
+                              "targetLiteralExpression": "getSelectedPageIndex(@datasource.items, @currentPage.name)",
+                              "type": "BindingInfo"
+                            }
+                          ],
+                          "type": "List[BindingInfo]"
+                        }
+                      },
+                      {
+                        "k": "onLoad",
+                        "v": {
+                          "isNull": true,
+                          "type": "String"
+                        }
+                      },
+                      {
+                        "k": "onUnload",
+                        "v": {
+                          "isNull": true,
+                          "type": "String"
+                        }
+                      },
+                      {
+                        "k": "onDataLoad",
+                        "v": {
+                          "isNull": true,
+                          "type": "String"
+                        }
+                      },
+                      {
+                        "k": "onSelectedIndexEdit",
+                        "v": {
+                          "isNull": true,
+                          "type": "String"
+                        }
+                      },
+                      {
+                        "k": "onSelectedIndexChange",
+                        "v": {
+                          "isNull": true,
+                          "type": "String"
+                        }
+                      }
+                    ],
+                    "type": "ComponentInfo"
+                  }
+                ],
+                "type": "List[ComponentInfo]"
+              }
+            }
+          ],
+          "type": "ComponentInfo"
+        }],
+        "type": "List[ComponentInfo]"
+      }
+    },
+    {
+      "k": "bindings",
+      "v": {
+        "list": [],
+        "type": "List[BindingInfo]"
+      }
+    }
+  ],
+  "type": "ComponentInfo"
+}

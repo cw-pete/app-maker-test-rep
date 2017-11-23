@@ -1,0 +1,254 @@
+{
+  "dataSources": [
+    {
+      "autoLoad": false,
+      "customProperties": [{
+        "category": "Custom Properties",
+        "deprecated": false,
+        "designTime": false,
+        "experimental": false,
+        "hidden": false,
+        "key": "Gzgd5gjs",
+        "name": "showAll",
+        "persisted": true,
+        "readonly": false,
+        "type": "Boolean"
+      }],
+      "customQuery": "var showAll \u003d query.parameters.showAll;\nreturn getAwaitingMyApproval_(query);",
+      "key": "gXAfgfwd310fL5VvDyPGizYR6CwBjqY6_default",
+      "modelKey": "gXAfgfwd310fL5VvDyPGizYR6CwBjqY6",
+      "name": "AwaitingMyApproval",
+      "pageSize": 5,
+      "prefetch": [
+        "_oDsHPgajfu5yercbzUakQdE0atFat2Zr",
+        "UCuKtbsZL0Wfs2zzei9AYw5Gb3tYaixY",
+        "_oDsHPgajfu5yercbzUakQdE0atFat2Zr._RQnsxeUi3WvfdObIsSUlkjXeARK7hUjt"
+      ],
+      "sortAsc": false,
+      "sortFieldKeyPath": "AJT6Oj0GKWYrflBR",
+      "type": "QUERY"
+    },
+    {
+      "autoLoad": false,
+      "customQuery": "return getAwaitingMyApproval_(query);",
+      "key": "wrSlAX4CzBfBzRtncAvWdJxgFiy0pLoZ",
+      "modelKey": "gXAfgfwd310fL5VvDyPGizYR6CwBjqY6",
+      "name": "AwaitingMyApprovalCount",
+      "type": "QUERY"
+    }
+  ],
+  "defaultDataSourceKey": "gXAfgfwd310fL5VvDyPGizYR6CwBjqY6_default",
+  "eventPermissions": [
+    {
+      "name": "ON_CREATE",
+      "permissions": [
+        {
+          "script": "canModifyApproverRecord_(record, user, userRoles)",
+          "type": "script"
+        },
+        {
+          "groupKeys": ["Admins"],
+          "type": "groups"
+        }
+      ],
+      "type": "compound"
+    },
+    {
+      "name": "ON_LOAD",
+      "type": "compoundEveryone"
+    },
+    {
+      "name": "ON_SAVE",
+      "permissions": [
+        {
+          "script": "canModifyApproverRecord_(record, user, userRoles)",
+          "type": "script"
+        },
+        {
+          "groupKeys": ["Admins"],
+          "type": "groups"
+        }
+      ],
+      "type": "compound"
+    },
+    {
+      "name": "ON_DELETE",
+      "permissions": [
+        {
+          "script": "canModifyApproverRecord_(record, user, userRoles)",
+          "type": "script"
+        },
+        {
+          "groupKeys": ["Admins"],
+          "type": "groups"
+        }
+      ],
+      "type": "compound"
+    }
+  ],
+  "events": [],
+  "fields": [
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "Type",
+      "defaultValue": "Person",
+      "key": "p2h1qfRKn3DVNgPZ",
+      "minLength": 0,
+      "name": "Type",
+      "possibleValues": {
+        "list": [
+          "Person",
+          "Group",
+          "Role"
+        ],
+        "type": "List[String]"
+      },
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "Email",
+      "displayName": "Approver\u0027s Email",
+      "key": "guNWuNKRUXZpXzVJ",
+      "minLength": 0,
+      "name": "Email",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "Name",
+      "key": "KJbNnsj257BHqj6f",
+      "minLength": 0,
+      "name": "Name",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "PhotoUrl",
+      "key": "lG92acr6PtzIhvK4",
+      "minLength": 0,
+      "name": "PhotoUrl",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "LastUpdated",
+      "key": "AJT6Oj0GKWYrflBR",
+      "name": "LastUpdated",
+      "required": false,
+      "type": "Date"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "Status",
+      "defaultValue": 0,
+      "integer": false,
+      "key": "XLqwid65gXoiRYDl",
+      "name": "Status",
+      "possibleValues": {
+        "list": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "type": "List[Number]"
+      },
+      "required": false,
+      "type": "Number"
+    }
+  ],
+  "key": "gXAfgfwd310fL5VvDyPGizYR6CwBjqY6",
+  "modelPermission": {
+    "name": "model_permission",
+    "permissions": [
+      {
+        "script": "canModifyApproverRecord_(record, user, userRoles)",
+        "type": "script"
+      },
+      {
+        "groupKeys": ["Admins"],
+        "type": "groups"
+      }
+    ],
+    "type": "compound"
+  },
+  "name": "Approver",
+  "type": "BRIX",
+  "userIdFieldType": "USER_ID"
+}

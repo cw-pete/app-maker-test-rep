@@ -1,0 +1,335 @@
+{
+  "dataSources": [
+    {
+      "autoLoad": false,
+      "isDraft": true,
+      "key": "vCXQN59Qkyp1fMWvZGNPbbFvP9JdPvNc_default",
+      "modelKey": "vCXQN59Qkyp1fMWvZGNPbbFvP9JdPvNc",
+      "name": "Request",
+      "pageSize": 20,
+      "parameters": {
+        "name": "QueryParameters",
+        "properties": [
+          {
+            "name": "SearchText",
+            "value": {
+              "isNull": true,
+              "type": "String"
+            }
+          },
+          {
+            "name": "False",
+            "value": false
+          }
+        ],
+        "type": "PropertyMap[QueryParameters]"
+      },
+      "sortFieldKeyPath": "7vkzsEnBrj4JIwnY",
+      "type": "QUERY",
+      "where": "Archived \u003d :False and (\n  DocumentName contains? :SearchText or\n  Owner contains? :SearchText or\n  Description contains? :SearchText\n)",
+      "wherePathMappings": [
+        {
+          "keyPath": "Archived",
+          "namePath": "WFRWGMKHmQMWTYWH"
+        },
+        {
+          "keyPath": "Owner",
+          "namePath": "m7xdS65PnADclbf9"
+        },
+        {
+          "keyPath": "DocumentName",
+          "namePath": "MtNxXZynpZ9rskGG"
+        },
+        {
+          "keyPath": "Description",
+          "namePath": "7r3XlwENPNzoGeVD"
+        }
+      ]
+    },
+    {
+      "autoLoad": false,
+      "customProperties": [{
+        "category": "Custom Properties",
+        "deprecated": false,
+        "designTime": false,
+        "experimental": false,
+        "hidden": false,
+        "key": "vp0rR2lZ",
+        "name": "requestKey",
+        "persisted": true,
+        "readonly": false,
+        "type": "String"
+      }],
+      "customQuery": "var request \u003d \n    app.models.Request.getRecord(query.parameters.requestKey);\nif (request !\u003d\u003d null) {\n  return [request];\n}\nreturn [];\n",
+      "key": "4PKQxf0gIBQsrM0oHs4xPFK8eNhx9q6T",
+      "modelKey": "vCXQN59Qkyp1fMWvZGNPbbFvP9JdPvNc",
+      "name": "RequestDetails",
+      "pageSize": 1,
+      "prefetch": [
+        "RQnsxeUi3WvfdObIsSUlkjXeARK7hUjt.oDsHPgajfu5yercbzUakQdE0atFat2Zr.UCuKtbsZL0Wfs2zzei9AYw5Gb3tYaixY",
+        "RQnsxeUi3WvfdObIsSUlkjXeARK7hUjt.oDsHPgajfu5yercbzUakQdE0atFat2Zr",
+        "RQnsxeUi3WvfdObIsSUlkjXeARK7hUjt"
+      ],
+      "type": "QUERY"
+    }
+  ],
+  "defaultDataSourceKey": "vCXQN59Qkyp1fMWvZGNPbbFvP9JdPvNc_default",
+  "eventPermissions": [
+    {
+      "name": "ON_CREATE",
+      "type": "compoundEveryone"
+    },
+    {
+      "name": "ON_LOAD",
+      "type": "compoundEveryone"
+    },
+    {
+      "name": "ON_SAVE",
+      "permissions": [
+        {
+          "idType": "EMAIL",
+          "path": "m7xdS65PnADclbf9",
+          "type": "owner"
+        },
+        {
+          "groupKeys": ["Admins"],
+          "type": "groups"
+        }
+      ],
+      "type": "compound"
+    },
+    {
+      "name": "ON_DELETE",
+      "permissions": [
+        {
+          "idType": "EMAIL",
+          "path": "m7xdS65PnADclbf9",
+          "type": "owner"
+        },
+        {
+          "groupKeys": ["Admins"],
+          "type": "groups"
+        }
+      ],
+      "type": "compound"
+    }
+  ],
+  "events": [
+    {
+      "action": "var stages \u003d record.WorkflowStages;\nvar approvers \u003d [].concat.apply([], stages.map(function(s) { return s.Approvers; }));\nvar comments \u003d [].concat.apply([], approvers.map(function(s) { return s.Comments; }));\n\nvar recordsToDelete \u003d [];\n\nif (stages.length \u003e 0) {\n  recordsToDelete \u003d recordsToDelete.concat(stages);\n}\nif (approvers.length \u003e 0) {\n  recordsToDelete \u003d recordsToDelete.concat(approvers);\n}\nif (comments.length \u003e 0) {\n  recordsToDelete \u003d recordsToDelete.concat(comments);\n}\n\nif (recordsToDelete.length \u003e 0) {\n  app.deleteRecords(recordsToDelete);\n}",
+      "type": "ON_DELETE"
+    },
+    {
+      "action": "record.Owner \u003d Session.getActiveUser().getEmail();\nrecord.CreatedOn \u003d new Date();",
+      "type": "ON_CREATE"
+    }
+  ],
+  "fields": [
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "DocumentName",
+      "key": "MtNxXZynpZ9rskGG",
+      "minLength": 0,
+      "name": "DocumentName",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "DocumentUrl",
+      "key": "GomBGMrfNr7d1BC9",
+      "minLength": 0,
+      "name": "DocumentUrl",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "Description",
+      "key": "7r3XlwENPNzoGeVD",
+      "minLength": 0,
+      "name": "Description",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "contains",
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notContains",
+        "notIn",
+        "notStartsWith",
+        "startsWith"
+      ],
+      "columnName": "Owner",
+      "key": "m7xdS65PnADclbf9",
+      "minLength": 0,
+      "name": "Owner",
+      "required": false,
+      "type": "String"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "CreatedOn",
+      "key": "bRwgu6cZlTIkluSa",
+      "name": "CreatedOn",
+      "required": false,
+      "type": "Date"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "in",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "Archived",
+      "defaultValue": false,
+      "key": "WFRWGMKHmQMWTYWH",
+      "name": "Archived",
+      "required": false,
+      "type": "Boolean"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "DueDate",
+      "key": "GU7dpn4jcShkIa5l",
+      "name": "DueDate",
+      "required": false,
+      "type": "Date"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "DaysPerStage",
+      "integer": false,
+      "key": "uTPFo9izR12E4iCQ",
+      "name": "DaysPerStage",
+      "required": false,
+      "type": "Number"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "in",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "AutoClose",
+      "defaultValue": false,
+      "displayName": "Auto Close",
+      "key": "pspdq5FKeYNzGZIo",
+      "name": "AutoClose",
+      "required": false,
+      "type": "Boolean"
+    },
+    {
+      "allowedFilterOperators": [
+        "eq",
+        "gt",
+        "gte",
+        "in",
+        "lt",
+        "lte",
+        "ne",
+        "notIn"
+      ],
+      "columnName": "Status",
+      "defaultValue": 0,
+      "integer": false,
+      "key": "7vkzsEnBrj4JIwnY",
+      "name": "Status",
+      "possibleValues": {
+        "list": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "type": "List[Number]"
+      },
+      "required": false,
+      "type": "Number"
+    }
+  ],
+  "key": "vCXQN59Qkyp1fMWvZGNPbbFvP9JdPvNc",
+  "modelPermission": {
+    "name": "model_permission",
+    "type": "compoundEveryone"
+  },
+  "name": "Request",
+  "type": "BRIX",
+  "userIdFieldType": "USER_ID"
+}

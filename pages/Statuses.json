@@ -1,0 +1,1730 @@
+{
+  "class": "Panel",
+  "key": "oXmX8909jmL9FAekVV9PZFqGbN5iC6C1",
+  "permission": {
+    "name": "canRead",
+    "type": "compoundEveryone"
+  },
+  "propList": [
+    {
+      "k": "styleMap",
+      "v": {
+        "name": "styleMap",
+        "properties": [],
+        "type": "PropertyMap[styleMap]"
+      }
+    },
+    {
+      "k": "width",
+      "v": 112
+    },
+    {
+      "k": "height",
+      "v": 163
+    },
+    {
+      "k": "name",
+      "v": "Statuses"
+    },
+    {
+      "k": "isCustomWidget",
+      "v": true
+    },
+    {
+      "k": "top",
+      "v": 4
+    },
+    {
+      "k": "left",
+      "v": 4
+    },
+    {
+      "k": "layout",
+      "v": "vertical"
+    },
+    {
+      "k": "children",
+      "v": {
+        "list": [
+          {
+            "class": "Panel",
+            "key": "0_330265683",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 400
+              },
+              {
+                "k": "height",
+                "v": 200
+              },
+              {
+                "k": "layout",
+                "v": "horizontal"
+              },
+              {
+                "k": "name",
+                "v": "Panel1"
+              },
+              {
+                "k": "left",
+                "v": 0
+              },
+              {
+                "k": "top",
+                "v": 0
+              },
+              {
+                "k": "autoWidth",
+                "v": true
+              },
+              {
+                "k": "align",
+                "v": "stretch"
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "children",
+                "v": {
+                  "list": [
+                    {
+                      "class": "Panel",
+                      "key": "4_880850975",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 24
+                        },
+                        {
+                          "k": "height",
+                          "v": 24
+                        },
+                        {
+                          "k": "name",
+                          "v": "StatusCircle"
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "styles",
+                          "v": {
+                            "list": [
+                              "status-color",
+                              "marginright8",
+                              "draft",
+                              "status-small"
+                            ],
+                            "type": "List[String]"
+                          }
+                        },
+                        {
+                          "k": "bindings",
+                          "v": {
+                            "list": [],
+                            "type": "List[BindingInfo]"
+                          }
+                        },
+                        {
+                          "k": "right",
+                          "v": 568
+                        },
+                        {
+                          "k": "bottom",
+                          "v": 49
+                        },
+                        {
+                          "k": "children",
+                          "v": {
+                            "list": [{
+                              "class": "SimpleLabel",
+                              "key": "5_1734686759",
+                              "propList": [
+                                {
+                                  "k": "styleMap",
+                                  "v": {
+                                    "name": "styleMap",
+                                    "properties": [],
+                                    "type": "PropertyMap[styleMap]"
+                                  }
+                                },
+                                {
+                                  "k": "width",
+                                  "v": 16
+                                },
+                                {
+                                  "k": "height",
+                                  "v": 24
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "Label2"
+                                },
+                                {
+                                  "k": "left",
+                                  "v": 4
+                                },
+                                {
+                                  "k": "top",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "autoWidth",
+                                  "v": false
+                                },
+                                {
+                                  "k": "autoHeight",
+                                  "v": false
+                                },
+                                {
+                                  "k": "right",
+                                  "v": 8
+                                },
+                                {
+                                  "k": "bottom",
+                                  "v": 8
+                                },
+                                {
+                                  "k": "variant",
+                                  "v": "Icon"
+                                },
+                                {
+                                  "k": "bindings",
+                                  "v": {
+                                    "list": [],
+                                    "type": "List[BindingInfo]"
+                                  }
+                                },
+                                {
+                                  "k": "constrain_right",
+                                  "v": false
+                                },
+                                {
+                                  "k": "constrain_width",
+                                  "v": true
+                                },
+                                {
+                                  "k": "text",
+                                  "v": "drafts"
+                                }
+                              ],
+                              "type": "ComponentInfo"
+                            }],
+                            "type": "List[ComponentInfo]"
+                          }
+                        },
+                        {
+                          "k": "constrain_left",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_right",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_width",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_minWidth",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_maxWidth",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_top",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_bottom",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_height",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_minHeight",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_maxHeight",
+                          "v": false
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    },
+                    {
+                      "class": "SimpleLabel",
+                      "key": "0_1521859584",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 100
+                        },
+                        {
+                          "k": "height",
+                          "v": 20
+                        },
+                        {
+                          "k": "name",
+                          "v": "Label1"
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "text",
+                          "v": "Draft"
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    }
+                  ],
+                  "type": "List[ComponentInfo]"
+                }
+              },
+              {
+                "k": "justify",
+                "v": "start"
+              },
+              {
+                "k": "alignChildren",
+                "v": "center"
+              },
+              {
+                "k": "styles",
+                "v": {
+                  "list": ["status-row"],
+                  "type": "List[String]"
+                }
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "Panel",
+            "key": "6_295769195",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 232
+              },
+              {
+                "k": "height",
+                "v": 40
+              },
+              {
+                "k": "layout",
+                "v": "horizontal"
+              },
+              {
+                "k": "name",
+                "v": "Panel2"
+              },
+              {
+                "k": "left",
+                "v": 0
+              },
+              {
+                "k": "top",
+                "v": 0
+              },
+              {
+                "k": "autoWidth",
+                "v": true
+              },
+              {
+                "k": "align",
+                "v": "stretch"
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "children",
+                "v": {
+                  "list": [
+                    {
+                      "class": "Panel",
+                      "key": "7_1778125710",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 24
+                        },
+                        {
+                          "k": "height",
+                          "v": 24
+                        },
+                        {
+                          "k": "name",
+                          "v": "StatusCircle1"
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "styles",
+                          "v": {
+                            "list": [
+                              "status-color",
+                              "marginright8",
+                              "pending",
+                              "status-small"
+                            ],
+                            "type": "List[String]"
+                          }
+                        },
+                        {
+                          "k": "bindings",
+                          "v": {
+                            "list": [],
+                            "type": "List[BindingInfo]"
+                          }
+                        },
+                        {
+                          "k": "right",
+                          "v": 568
+                        },
+                        {
+                          "k": "bottom",
+                          "v": 49
+                        },
+                        {
+                          "k": "children",
+                          "v": {
+                            "list": [{
+                              "class": "SimpleLabel",
+                              "key": "8_1314779767",
+                              "propList": [
+                                {
+                                  "k": "styleMap",
+                                  "v": {
+                                    "name": "styleMap",
+                                    "properties": [],
+                                    "type": "PropertyMap[styleMap]"
+                                  }
+                                },
+                                {
+                                  "k": "width",
+                                  "v": 16
+                                },
+                                {
+                                  "k": "height",
+                                  "v": 24
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "Label4"
+                                },
+                                {
+                                  "k": "left",
+                                  "v": 4
+                                },
+                                {
+                                  "k": "top",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "autoWidth",
+                                  "v": false
+                                },
+                                {
+                                  "k": "autoHeight",
+                                  "v": false
+                                },
+                                {
+                                  "k": "right",
+                                  "v": 8
+                                },
+                                {
+                                  "k": "bottom",
+                                  "v": 8
+                                },
+                                {
+                                  "k": "variant",
+                                  "v": "Icon"
+                                },
+                                {
+                                  "k": "bindings",
+                                  "v": {
+                                    "list": [],
+                                    "type": "List[BindingInfo]"
+                                  }
+                                },
+                                {
+                                  "k": "constrain_right",
+                                  "v": false
+                                },
+                                {
+                                  "k": "constrain_width",
+                                  "v": true
+                                },
+                                {
+                                  "k": "text",
+                                  "v": "access_time"
+                                }
+                              ],
+                              "type": "ComponentInfo"
+                            }],
+                            "type": "List[ComponentInfo]"
+                          }
+                        },
+                        {
+                          "k": "constrain_left",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_right",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_width",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_minWidth",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_maxWidth",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_top",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_bottom",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_height",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_minHeight",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_maxHeight",
+                          "v": false
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    },
+                    {
+                      "class": "SimpleLabel",
+                      "key": "9_1786514418",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 100
+                        },
+                        {
+                          "k": "height",
+                          "v": 20
+                        },
+                        {
+                          "k": "name",
+                          "v": "Label3"
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "text",
+                          "v": "Pending"
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    }
+                  ],
+                  "type": "List[ComponentInfo]"
+                }
+              },
+              {
+                "k": "justify",
+                "v": "start"
+              },
+              {
+                "k": "alignChildren",
+                "v": "center"
+              },
+              {
+                "k": "constrain_left",
+                "v": true
+              },
+              {
+                "k": "constrain_right",
+                "v": false
+              },
+              {
+                "k": "constrain_width",
+                "v": true
+              },
+              {
+                "k": "constrain_minWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_maxWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_top",
+                "v": true
+              },
+              {
+                "k": "constrain_bottom",
+                "v": false
+              },
+              {
+                "k": "constrain_height",
+                "v": true
+              },
+              {
+                "k": "constrain_minHeight",
+                "v": false
+              },
+              {
+                "k": "constrain_maxHeight",
+                "v": false
+              },
+              {
+                "k": "styles",
+                "v": {
+                  "list": ["status-row"],
+                  "type": "List[String]"
+                }
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "Panel",
+            "key": "10_1880434426",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 232
+              },
+              {
+                "k": "height",
+                "v": 40
+              },
+              {
+                "k": "layout",
+                "v": "horizontal"
+              },
+              {
+                "k": "name",
+                "v": "Panel3"
+              },
+              {
+                "k": "left",
+                "v": 0
+              },
+              {
+                "k": "top",
+                "v": 0
+              },
+              {
+                "k": "autoWidth",
+                "v": true
+              },
+              {
+                "k": "align",
+                "v": "stretch"
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "children",
+                "v": {
+                  "list": [
+                    {
+                      "class": "Panel",
+                      "key": "11_1493615003",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 24
+                        },
+                        {
+                          "k": "height",
+                          "v": 24
+                        },
+                        {
+                          "k": "name",
+                          "v": "StatusCircle2"
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "styles",
+                          "v": {
+                            "list": [
+                              "status-color",
+                              "marginright8",
+                              "approved",
+                              "status-small"
+                            ],
+                            "type": "List[String]"
+                          }
+                        },
+                        {
+                          "k": "bindings",
+                          "v": {
+                            "list": [],
+                            "type": "List[BindingInfo]"
+                          }
+                        },
+                        {
+                          "k": "right",
+                          "v": 568
+                        },
+                        {
+                          "k": "bottom",
+                          "v": 49
+                        },
+                        {
+                          "k": "children",
+                          "v": {
+                            "list": [{
+                              "class": "SimpleLabel",
+                              "key": "12_1263069874",
+                              "propList": [
+                                {
+                                  "k": "styleMap",
+                                  "v": {
+                                    "name": "styleMap",
+                                    "properties": [],
+                                    "type": "PropertyMap[styleMap]"
+                                  }
+                                },
+                                {
+                                  "k": "width",
+                                  "v": 16
+                                },
+                                {
+                                  "k": "height",
+                                  "v": 24
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "Label6"
+                                },
+                                {
+                                  "k": "left",
+                                  "v": 4
+                                },
+                                {
+                                  "k": "top",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "autoWidth",
+                                  "v": false
+                                },
+                                {
+                                  "k": "autoHeight",
+                                  "v": false
+                                },
+                                {
+                                  "k": "right",
+                                  "v": 8
+                                },
+                                {
+                                  "k": "bottom",
+                                  "v": 8
+                                },
+                                {
+                                  "k": "variant",
+                                  "v": "Icon"
+                                },
+                                {
+                                  "k": "bindings",
+                                  "v": {
+                                    "list": [],
+                                    "type": "List[BindingInfo]"
+                                  }
+                                },
+                                {
+                                  "k": "constrain_right",
+                                  "v": false
+                                },
+                                {
+                                  "k": "constrain_width",
+                                  "v": true
+                                },
+                                {
+                                  "k": "text",
+                                  "v": "check"
+                                }
+                              ],
+                              "type": "ComponentInfo"
+                            }],
+                            "type": "List[ComponentInfo]"
+                          }
+                        },
+                        {
+                          "k": "constrain_left",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_right",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_width",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_minWidth",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_maxWidth",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_top",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_bottom",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_height",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_minHeight",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_maxHeight",
+                          "v": false
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    },
+                    {
+                      "class": "SimpleLabel",
+                      "key": "13_297097388",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 100
+                        },
+                        {
+                          "k": "height",
+                          "v": 20
+                        },
+                        {
+                          "k": "name",
+                          "v": "Label5"
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "text",
+                          "v": "Approved"
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    }
+                  ],
+                  "type": "List[ComponentInfo]"
+                }
+              },
+              {
+                "k": "justify",
+                "v": "start"
+              },
+              {
+                "k": "alignChildren",
+                "v": "center"
+              },
+              {
+                "k": "constrain_left",
+                "v": true
+              },
+              {
+                "k": "constrain_right",
+                "v": false
+              },
+              {
+                "k": "constrain_width",
+                "v": true
+              },
+              {
+                "k": "constrain_minWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_maxWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_top",
+                "v": true
+              },
+              {
+                "k": "constrain_bottom",
+                "v": false
+              },
+              {
+                "k": "constrain_height",
+                "v": true
+              },
+              {
+                "k": "constrain_minHeight",
+                "v": false
+              },
+              {
+                "k": "constrain_maxHeight",
+                "v": false
+              },
+              {
+                "k": "styles",
+                "v": {
+                  "list": ["status-row"],
+                  "type": "List[String]"
+                }
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "Panel",
+            "key": "14_2020614573",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 232
+              },
+              {
+                "k": "height",
+                "v": 40
+              },
+              {
+                "k": "layout",
+                "v": "horizontal"
+              },
+              {
+                "k": "name",
+                "v": "Panel4"
+              },
+              {
+                "k": "left",
+                "v": 0
+              },
+              {
+                "k": "top",
+                "v": 0
+              },
+              {
+                "k": "autoWidth",
+                "v": true
+              },
+              {
+                "k": "align",
+                "v": "stretch"
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "children",
+                "v": {
+                  "list": [
+                    {
+                      "class": "Panel",
+                      "key": "15_1577942818",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 24
+                        },
+                        {
+                          "k": "height",
+                          "v": 24
+                        },
+                        {
+                          "k": "name",
+                          "v": "StatusCircle3"
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "styles",
+                          "v": {
+                            "list": [
+                              "status-color",
+                              "marginright8",
+                              "rejected",
+                              "status-small"
+                            ],
+                            "type": "List[String]"
+                          }
+                        },
+                        {
+                          "k": "bindings",
+                          "v": {
+                            "list": [],
+                            "type": "List[BindingInfo]"
+                          }
+                        },
+                        {
+                          "k": "right",
+                          "v": 568
+                        },
+                        {
+                          "k": "bottom",
+                          "v": 49
+                        },
+                        {
+                          "k": "children",
+                          "v": {
+                            "list": [{
+                              "class": "SimpleLabel",
+                              "key": "16_1723060522",
+                              "propList": [
+                                {
+                                  "k": "styleMap",
+                                  "v": {
+                                    "name": "styleMap",
+                                    "properties": [],
+                                    "type": "PropertyMap[styleMap]"
+                                  }
+                                },
+                                {
+                                  "k": "width",
+                                  "v": 16
+                                },
+                                {
+                                  "k": "height",
+                                  "v": 24
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "Label8"
+                                },
+                                {
+                                  "k": "left",
+                                  "v": 4
+                                },
+                                {
+                                  "k": "top",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "autoWidth",
+                                  "v": false
+                                },
+                                {
+                                  "k": "autoHeight",
+                                  "v": false
+                                },
+                                {
+                                  "k": "right",
+                                  "v": 8
+                                },
+                                {
+                                  "k": "bottom",
+                                  "v": 8
+                                },
+                                {
+                                  "k": "variant",
+                                  "v": "Icon"
+                                },
+                                {
+                                  "k": "bindings",
+                                  "v": {
+                                    "list": [],
+                                    "type": "List[BindingInfo]"
+                                  }
+                                },
+                                {
+                                  "k": "constrain_right",
+                                  "v": false
+                                },
+                                {
+                                  "k": "constrain_width",
+                                  "v": true
+                                },
+                                {
+                                  "k": "text",
+                                  "v": "close"
+                                }
+                              ],
+                              "type": "ComponentInfo"
+                            }],
+                            "type": "List[ComponentInfo]"
+                          }
+                        },
+                        {
+                          "k": "constrain_left",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_right",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_width",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_minWidth",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_maxWidth",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_top",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_bottom",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_height",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_minHeight",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_maxHeight",
+                          "v": false
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    },
+                    {
+                      "class": "SimpleLabel",
+                      "key": "17_1092463208",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 100
+                        },
+                        {
+                          "k": "height",
+                          "v": 20
+                        },
+                        {
+                          "k": "name",
+                          "v": "Label7"
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "text",
+                          "v": "Rejected"
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    }
+                  ],
+                  "type": "List[ComponentInfo]"
+                }
+              },
+              {
+                "k": "justify",
+                "v": "start"
+              },
+              {
+                "k": "alignChildren",
+                "v": "center"
+              },
+              {
+                "k": "constrain_left",
+                "v": true
+              },
+              {
+                "k": "constrain_right",
+                "v": false
+              },
+              {
+                "k": "constrain_width",
+                "v": true
+              },
+              {
+                "k": "constrain_minWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_maxWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_top",
+                "v": true
+              },
+              {
+                "k": "constrain_bottom",
+                "v": false
+              },
+              {
+                "k": "constrain_height",
+                "v": true
+              },
+              {
+                "k": "constrain_minHeight",
+                "v": false
+              },
+              {
+                "k": "constrain_maxHeight",
+                "v": false
+              },
+              {
+                "k": "styles",
+                "v": {
+                  "list": ["status-row"],
+                  "type": "List[String]"
+                }
+              }
+            ],
+            "type": "ComponentInfo"
+          },
+          {
+            "class": "Panel",
+            "key": "18_478232841",
+            "propList": [
+              {
+                "k": "styleMap",
+                "v": {
+                  "name": "styleMap",
+                  "properties": [],
+                  "type": "PropertyMap[styleMap]"
+                }
+              },
+              {
+                "k": "width",
+                "v": 232
+              },
+              {
+                "k": "height",
+                "v": 40
+              },
+              {
+                "k": "layout",
+                "v": "horizontal"
+              },
+              {
+                "k": "name",
+                "v": "Panel5"
+              },
+              {
+                "k": "left",
+                "v": 0
+              },
+              {
+                "k": "top",
+                "v": 0
+              },
+              {
+                "k": "autoWidth",
+                "v": true
+              },
+              {
+                "k": "align",
+                "v": "stretch"
+              },
+              {
+                "k": "autoHeight",
+                "v": true
+              },
+              {
+                "k": "children",
+                "v": {
+                  "list": [
+                    {
+                      "class": "Panel",
+                      "key": "19_1688757238",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 24
+                        },
+                        {
+                          "k": "height",
+                          "v": 24
+                        },
+                        {
+                          "k": "name",
+                          "v": "StatusCircle4"
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "styles",
+                          "v": {
+                            "list": [
+                              "status-color",
+                              "marginright8",
+                              "closed",
+                              "status-small"
+                            ],
+                            "type": "List[String]"
+                          }
+                        },
+                        {
+                          "k": "bindings",
+                          "v": {
+                            "list": [],
+                            "type": "List[BindingInfo]"
+                          }
+                        },
+                        {
+                          "k": "right",
+                          "v": 568
+                        },
+                        {
+                          "k": "bottom",
+                          "v": 49
+                        },
+                        {
+                          "k": "children",
+                          "v": {
+                            "list": [{
+                              "class": "SimpleLabel",
+                              "key": "20_1748480774",
+                              "propList": [
+                                {
+                                  "k": "styleMap",
+                                  "v": {
+                                    "name": "styleMap",
+                                    "properties": [],
+                                    "type": "PropertyMap[styleMap]"
+                                  }
+                                },
+                                {
+                                  "k": "width",
+                                  "v": 16
+                                },
+                                {
+                                  "k": "height",
+                                  "v": 24
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "Label10"
+                                },
+                                {
+                                  "k": "left",
+                                  "v": 4
+                                },
+                                {
+                                  "k": "top",
+                                  "v": 0
+                                },
+                                {
+                                  "k": "autoWidth",
+                                  "v": false
+                                },
+                                {
+                                  "k": "autoHeight",
+                                  "v": false
+                                },
+                                {
+                                  "k": "right",
+                                  "v": 8
+                                },
+                                {
+                                  "k": "bottom",
+                                  "v": 8
+                                },
+                                {
+                                  "k": "variant",
+                                  "v": "Icon"
+                                },
+                                {
+                                  "k": "bindings",
+                                  "v": {
+                                    "list": [],
+                                    "type": "List[BindingInfo]"
+                                  }
+                                },
+                                {
+                                  "k": "constrain_right",
+                                  "v": false
+                                },
+                                {
+                                  "k": "constrain_width",
+                                  "v": true
+                                },
+                                {
+                                  "k": "text",
+                                  "v": "close"
+                                }
+                              ],
+                              "type": "ComponentInfo"
+                            }],
+                            "type": "List[ComponentInfo]"
+                          }
+                        },
+                        {
+                          "k": "constrain_left",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_right",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_width",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_minWidth",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_maxWidth",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_top",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_bottom",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_height",
+                          "v": true
+                        },
+                        {
+                          "k": "constrain_minHeight",
+                          "v": false
+                        },
+                        {
+                          "k": "constrain_maxHeight",
+                          "v": false
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    },
+                    {
+                      "class": "SimpleLabel",
+                      "key": "21_1317271183",
+                      "propList": [
+                        {
+                          "k": "styleMap",
+                          "v": {
+                            "name": "styleMap",
+                            "properties": [],
+                            "type": "PropertyMap[styleMap]"
+                          }
+                        },
+                        {
+                          "k": "width",
+                          "v": 100
+                        },
+                        {
+                          "k": "height",
+                          "v": 20
+                        },
+                        {
+                          "k": "name",
+                          "v": "Label9"
+                        },
+                        {
+                          "k": "left",
+                          "v": 0
+                        },
+                        {
+                          "k": "top",
+                          "v": 0
+                        },
+                        {
+                          "k": "autoWidth",
+                          "v": true
+                        },
+                        {
+                          "k": "autoHeight",
+                          "v": true
+                        },
+                        {
+                          "k": "text",
+                          "v": "Closed"
+                        }
+                      ],
+                      "type": "ComponentInfo"
+                    }
+                  ],
+                  "type": "List[ComponentInfo]"
+                }
+              },
+              {
+                "k": "justify",
+                "v": "start"
+              },
+              {
+                "k": "alignChildren",
+                "v": "center"
+              },
+              {
+                "k": "constrain_left",
+                "v": true
+              },
+              {
+                "k": "constrain_right",
+                "v": false
+              },
+              {
+                "k": "constrain_width",
+                "v": true
+              },
+              {
+                "k": "constrain_minWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_maxWidth",
+                "v": false
+              },
+              {
+                "k": "constrain_top",
+                "v": true
+              },
+              {
+                "k": "constrain_bottom",
+                "v": false
+              },
+              {
+                "k": "constrain_height",
+                "v": true
+              },
+              {
+                "k": "constrain_minHeight",
+                "v": false
+              },
+              {
+                "k": "constrain_maxHeight",
+                "v": false
+              },
+              {
+                "k": "styles",
+                "v": {
+                  "list": ["status-row"],
+                  "type": "List[String]"
+                }
+              }
+            ],
+            "type": "ComponentInfo"
+          }
+        ],
+        "type": "List[ComponentInfo]"
+      }
+    }
+  ],
+  "type": "ComponentInfo"
+}

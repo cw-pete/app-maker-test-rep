@@ -1,0 +1,6 @@
+{
+  "content": "/**\n * @fileoverview Client script functions for AddRequest page.\n */\n\n\n/**\n * Creates a new request and redirects user to the edit screen afterwards.\n * @param {Widget} submitButton - button that triggers the action.\n */\nfunction createRequest(submitButton) {\n  if (submitButton.root.validate()) { \n    submitButton.enabled \u003d false;\n    submitButton.datasource.saveChanges({\n      success: function() {\n        submitButton.enabled \u003d true;\n        goToRequestDetailsPage(submitButton.datasource.item._key);\n      },\n      failure: function(error) {\n        submitButton.enabled \u003d true;\n      }\n    });\n  }\n}\n\n\n/**\n * Creates a new request and redirects user to the edit screen afterwards.\n * @param {Widget} cancelButton - button that triggers the action.\n */\nfunction cancelCreateRequest(cancelButton) {\n  cancelButton.datasource.clearChanges();\n  app.showPage(app.pages.Main);\n}\n",
+  "key": "3ddBbJcTpA7Dcgy7xa7puBGDTIhsMk1e",
+  "name": "AddRequestPage",
+  "type": "CLIENT"
+}
